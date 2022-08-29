@@ -1,0 +1,21 @@
+{
+    "name": "mpfh-theme",
+    "displayName": "mpfh_theme",
+    "description": "theme based on mpfh.nl",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "mpfh_theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/mpfh_theme-color-theme.json"
+            }
+        ]
+    }
+}
